@@ -1,0 +1,127 @@
+.todolist {
+  width: 400px;
+  margin: 35px auto;
+  text-align: center;
+}
+
+#btn_add {
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  margin: 20px auto;
+  font-size: 30px;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #5f5f5f;
+  cursor: pointer;
+}
+
+#item_add, #item_update {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#item_add label, #item_update label{
+  display: block;
+  margin: 5px 0;
+}
+
+#item_add input, #item_update input {
+  width: 250px;
+  height: 30px;
+  padding-left: 5px;  
+}
+
+#btn {
+  width: 260px;
+  margin: 10px auto 0 auto;
+}
+
+#btn button {
+  width: 128px;
+  height: 40px;
+  background-color: #ddd;
+}
+
+#create {
+  margin-right: -5px;
+  border: 1px solid green;
+  border-right: none;
+  color: green;
+}
+
+.close {
+  border: 1px solid red;
+  color: red;
+}
+
+.show {
+  display: none;
+}
+
+.item {
+  position: relative;
+  width: 300px;
+  margin: 10px auto;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.item h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.item p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #5f5f5f;
+}
+
+.tools {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+
+.tools img {
+  padding: 0 3px;
+  cursor: pointer;
+}
+
+.isFinish {
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 20px;
+  border: 1px solid red;
+  border-radius: 0 0 5px 5px;
+  color: red;
+  cursor: pointer;
+}
+
+.finished {
+  border-color: green;
+  color: green;
+}
+
+.item_update {
+  padding-bottom: 0;
+}
+
+#btn_close {
+  width: 260px;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px auto 10px auto;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  background-color: #ddd;
+  color: blue;
+}
